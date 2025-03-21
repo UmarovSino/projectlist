@@ -25,7 +25,9 @@ let idx = null;
 let API = "http://localhost:3000/data"
 
 
-
+xclose.onclick=()=>{
+    addModal.close()
+}
 
 /////function async
 async function get() {

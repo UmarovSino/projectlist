@@ -61,8 +61,7 @@ color: white;
 .addModal{
     
     margin-left: 350px;
-    display: flex;
-    flex-direction: column;
+    
     gap: 10px;
     width: 600px;
     padding: 50px;
