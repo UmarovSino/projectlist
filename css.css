@@ -1,0 +1,83 @@
+*{
+    margin: 0%;
+   padding: 8px;
+}
+.foto{
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+.box{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.container{
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(159, 190, 159);
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.delbtn{
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    
+    background-color: #9b3f28;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.editbtn{
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #9487D9;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.search{
+    background-color: blue;
+    border:none;
+    border-radius: 10px;
+color: white;
+}
+.addbtn{
+    border: none;
+    background-color: white;
+    font-size: 30px;
+    outline: none;
+
+}
+.addModal{
+    
+    margin-left: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 600px;
+    padding: 50px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.addMODALS{
+    display: flex;
+    justify-content: space-between;
+}
+.xclose{
+    background-color: white;
+    font-size: 20px;
+    outline: none;
+    border: none;
+}

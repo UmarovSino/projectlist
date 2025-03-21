@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css.css">
+</head>
+<body>
+    <button class="addbtn"> +</button>
+    <dialog class="addModal">
+        <div class="addMODALS">
+            <h2>addModal</h2>
+            <button class="xclose">x</button>
+        </div>
+       
+        <input type="text" class="addimg" placeholder="Img">
+        
+        <input type="text" class="addname" placeholder="Name">
+       
+        <input type="text" class="addcontact" placeholder="Contact">
+       
+        <input type="text" class="addtext" placeholder="Text">
+       
+        <input type="text" class="addinfo" placeholder="Info">
+       
+        <select name="" id="" class="addstatus" placeholder="Status">
+            <option value="true">true</option>
+            <option value="false">false</option>
+        </select>
+        <button type="submit" class="addsave">Save</button>
+        <button class="addclose">close</button>
+    </dialog>
+    <dialog class="editDialog">
+        <form class="editForm">
+            <input type="text" name = "editimg" class="editimg">
+            <input type="text" name = "editName" class="editName">
+            <input type="text" name = "editinfo" class="editName">
+            <input type="text" name = "editcontact" class="editName">
+            <input type="text" name = "editDescription" class="editDescription">
+            <select name="editStatus" id="">
+                <option value="true">Active</option>
+                <option value="false">Inactive</option>
+            </select>
+            <button type="submit">Save</button>
+            <button type="button" class="editclose">close</button>
+        </form>
+    </dialog>
+    <input type="text" class="inpsearch">
+    <button class="search">Search</button>
+    <select name="" id="" class="selected">
+        <option value="all">All</option>
+        <option value="true">true</option>
+        <option value="false">false</option>
+    </select>
+    <dialog class="infoModal">
+        <h2 class="infoname"></h2>
+        <h2 class="infotext"></h2>
+        <button type="button" class="infoclose">Close</button>
+    </dialog>
+    <div class="box"></div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="js.js"></script>
+</body>
+</html>
